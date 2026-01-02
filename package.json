@@ -1,0 +1,20 @@
+{
+    "name": "elysia-starter",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+        "dev": "tsx watch src/index.ts",
+        "build": "tsc src/index.ts --outDir dist",
+        "start": "NODE_ENV=production node dist/index.js"
+    },
+    "dependencies": {
+        "elysia": "^1.4.19"
+    },
+    "devDependencies": {
+        "@elysiajs/node": "^1.4.2",
+        "@types/node": "^25.0.3",
+        "tsx": "^4.21.0",
+        "typescript": "^5.9.3"
+    },
+    "author": "syvixor"
+}
